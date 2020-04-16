@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0" Version="0.4">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="GTQ"  
+					FechaHoraEmision="2020-02-26T08:47:24-06:00" Tipo="RDON"/>
+				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1"
+					CorreoEmisor="megaprint@gmail.com" NITEmisor="50510231" NombreComercial="Megaprint" NombreEmisor="MEGAPRINT, SOCIEDAD ANONIMA">
+					<dte:DireccionEmisor>
+						<dte:Direccion>Km. 9.5 Carretera A El Salvador CA-01 Torre Tigo Oficina 2A Santa Catarina Pinula,Guatemala</dte:Direccion>
+						<dte:CodigoPostal>010101</dte:CodigoPostal>
+						<dte:Municipio>Guatemala</dte:Municipio>
+						<dte:Departamento>Guatemala</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor IDReceptor="CF" NombreReceptor="Consumidor Final">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Ciudad</dte:Direccion>
+						<dte:CodigoPostal>010101</dte:CodigoPostal>
+						<dte:Municipio/>
+						<dte:Departamento/>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="4" TipoFrase="4"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="S" NumeroLinea="1">
+						<dte:Cantidad>1.00000</dte:Cantidad>
+						<dte:UnidadMedida>Uni</dte:UnidadMedida>
+						<dte:Descripcion>Donación</dte:Descripcion>
+						<dte:PrecioUnitario>3.0000000000</dte:PrecioUnitario>
+						<dte:Precio>3.0000000000</dte:Precio>
+						<dte:Descuento>0.0000000000</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>3.0000000000</dte:MontoGravable>
+								<!--<dte:CantidadUnidadesGravables>1.00</dte:CantidadUnidadesGravables>-->
+								<dte:MontoImpuesto>0.00</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>3.0000000000</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:GranTotal>3.0000000000</dte:GranTotal>
+				</dte:Totales>
+			</dte:DatosEmision>
+		</dte:DTE>
+	</dte:SAT>
+</dte:GTDocumento>
