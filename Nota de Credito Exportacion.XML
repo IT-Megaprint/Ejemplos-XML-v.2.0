@@ -4,7 +4,7 @@
   <dte:DTE ID="DatosCertificados">
    <dte:DatosEmision ID="DatosEmision">
     <dte:DatosGenerales CodigoMoneda="USD" Exp="SI" FechaHoraEmision="2020-12-10T15:52:07.000-06:00" Tipo="NCRE"/>
-    <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="5870755" NombreComercial="Pochteca Guatemala" NombreEmisor="Pochteca Guatemala">
+    <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="12345668" NombreComercial="prueba" NombreEmisor="Prueba">
      <dte:DireccionEmisor>
       <dte:Direccion>CARRETERA PANAMERICANA KM 19.5 ZONA 1, LOTE 7</dte:Direccion>
       <dte:CodigoPostal>0000001057</dte:CodigoPostal>
