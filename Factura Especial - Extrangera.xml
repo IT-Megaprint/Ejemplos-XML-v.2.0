@@ -3,7 +3,7 @@
 		<dte:DTE ID="DatosCertificados">
 			<dte:DatosEmision ID="DatosEmision">
 				<dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2019-11-08T12:22:22.000-06:00" Tipo="FESP"/>
-				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="33003777" NombreComercial="Nutrifert" NombreEmisor="Nutrientes y Fertilizantes Sociedad Anonima">
+				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="123456789" NombreComercial="prueba" NombreEmisor="prueba sociedad Anonima">
 					<dte:DireccionEmisor>
 						<dte:Direccion>Diagonal 6 10-01 Z.10 Centro Gerencial Las Margaritas Torre </dte:Direccion>
 						<dte:CodigoPostal>01100</dte:CodigoPostal>
@@ -12,7 +12,7 @@
 						<dte:Pais>GT</dte:Pais>
 					</dte:DireccionEmisor>
 				</dte:Emisor>
-				<dte:Receptor CorreoReceptor="" IDReceptor="425990002288539" NombreReceptor="Tetra Pak de Panamá, S.A " TipoEspecial="EXT">
+				<dte:Receptor CorreoReceptor="" IDReceptor="425990002288539" NombreReceptor="cliente" TipoEspecial="EXT">
 					<dte:DireccionReceptor>
 						<dte:Direccion>Edificio Plaza Globus, piso 57 Ave. Samuel Lewis y Calle 55</dte:Direccion>
 						<dte:CodigoPostal>01001</dte:CodigoPostal>
