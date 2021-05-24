@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+   <dte:SAT ClaseDocumento="dte">
+      <dte:DTE ID="DatosCertificados">
+         <dte:DatosEmision ID="DatosEmision">
+            <dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2020-02-26T13:21:00.000-06:00" Tipo="FACT" />
+            <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="50510231" NombreComercial=" MEGAPRINT" NombreEmisor="MEGAPRINT, SOCIEDAD ANONIMA">
+               <dte:DireccionEmisor>
+                  <dte:Direccion>12 CALLE ZONA 17 Colonia Guatemala, GUATEMALA</dte:Direccion>
+                  <dte:CodigoPostal>0</dte:CodigoPostal>
+                  <dte:Municipio>Guatemala</dte:Municipio>
+                  <dte:Departamento>GUATEMALA</dte:Departamento>
+                  <dte:Pais>GT</dte:Pais>
+               </dte:DireccionEmisor>
+            </dte:Emisor>
+            <dte:Receptor CorreoReceptor="l.leiva@megaprint.com.gt" IDReceptor="50510231" NombreReceptor="MEGAPRINT, SOCIEDAD ANONIMA">
+               <dte:DireccionReceptor>
+                  <dte:Direccion>CIUDAD</dte:Direccion>
+                  <dte:CodigoPostal>0</dte:CodigoPostal>
+                  <dte:Municipio />
+                  <dte:Departamento />
+                  <dte:Pais>GT</dte:Pais>
+               </dte:DireccionReceptor>
+            </dte:Receptor>
+            <dte:Frases>
+               <dte:Frase CodigoEscenario="1" TipoFrase="2" />
+               <dte:Frase CodigoEscenario="3" FechaResolucion="2013-03-21" NumeroResolucion="5731220320131" TipoFrase="1" />
+            </dte:Frases>
+            <dte:Items>
+               <dte:Item BienOServicio="S" NumeroLinea="1">
+                  <dte:Cantidad>1.00</dte:Cantidad>
+                  <dte:UnidadMedida>UNI</dte:UnidadMedida>
+                  <dte:Descripcion>SERVICIOS PROFESIONALES #C2</dte:Descripcion>
+                  <dte:PrecioUnitario>300.00</dte:PrecioUnitario>
+                  <dte:Precio>300.00</dte:Precio>
+                  <dte:Descuento>0.00</dte:Descuento>
+                  <dte:Impuestos>
+                     <dte:Impuesto>
+                        <dte:NombreCorto>IVA</dte:NombreCorto>
+                        <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                        <dte:MontoGravable>267.86</dte:MontoGravable>
+                        <dte:MontoImpuesto>32.14</dte:MontoImpuesto>
+                     </dte:Impuesto>
+                  </dte:Impuestos>
+                  <dte:Total>300.00</dte:Total>
+               </dte:Item>
+            </dte:Items>
+            <dte:Totales>
+               <dte:TotalImpuestos>
+                  <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="32.14" />
+               </dte:TotalImpuestos>
+               <dte:GranTotal>300.00</dte:GranTotal>
+            </dte:Totales>
+         </dte:DatosEmision>
+      </dte:DTE>
+   </dte:SAT>
+</dte:GTDocumento>
