@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="USD" TipoPersoneria="2635" FechaHoraEmision="2020-09-01T08:47:24-06:00" Tipo="RDON"/>
+				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="info@fundacion13aguas.com" NITEmisor="64600637" NombreComercial="Prueba" NombreEmisor="prueba">
+					<dte:DireccionEmisor>
+						<dte:Direccion>Guatemala</dte:Direccion>
+						<dte:CodigoPostal>01010</dte:CodigoPostal>
+						<dte:Municipio>Guatemala</dte:Municipio>
+						<dte:Departamento>Guatemala</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor CorreoReceptor="" IDReceptor="CF" NombreReceptor="Rodrigo Tormo ">
+					<dte:DireccionReceptor>
+						<dte:Direccion>España </dte:Direccion>
+						<dte:CodigoPostal>01001</dte:CodigoPostal>
+						<dte:Municipio>.</dte:Municipio>
+						<dte:Departamento>.</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="4" TipoFrase="4"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="S" NumeroLinea="1">
+						<dte:Cantidad>1.00000</dte:Cantidad>
+						<dte:UnidadMedida>Uni</dte:UnidadMedida>
+						<dte:Descripcion>Donación</dte:Descripcion>
+						<dte:PrecioUnitario>3.0000000000</dte:PrecioUnitario>
+						<dte:Precio>3.0000000000</dte:Precio>
+						<dte:Descuento>0.0000000000</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>3.0000000000</dte:MontoGravable>
+								<!--<dte:CantidadUnidadesGravables>1.00</dte:CantidadUnidadesGravables>-->
+								<dte:MontoImpuesto>0.00</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>3.0000000000</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:GranTotal>3.0000000000</dte:GranTotal>
+				</dte:Totales>
+			</dte:DatosEmision>
+		</dte:DTE>
+	</dte:SAT>
+</dte:GTDocumento>

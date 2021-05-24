@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento Version="0.1" xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0">
+ <dte:SAT ClaseDocumento="dte">
+  <dte:DTE ID="DatosCertificados">
+   <dte:DatosEmision ID="DatosEmision">
+    <dte:DatosGenerales CodigoMoneda="USD" Exp="SI" FechaHoraEmision="2020-12-10T15:52:07.000-06:00" Tipo="NCRE"/>
+    <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="5870755" NombreComercial="Pochteca Guatemala" NombreEmisor="Pochteca Guatemala">
+     <dte:DireccionEmisor>
+      <dte:Direccion>CARRETERA PANAMERICANA KM 19.5 ZONA 1, LOTE 7</dte:Direccion>
+      <dte:CodigoPostal>0000001057</dte:CodigoPostal>
+      <dte:Municipio>LO DE COY,  MIXCO</dte:Municipio>
+      <dte:Departamento/>
+      <dte:Pais>GT</dte:Pais>
+     </dte:DireccionEmisor>
+    </dte:Emisor>
+    <dte:Receptor CorreoReceptor="" IDReceptor="CF" NombreReceptor="POCHTECA MATERIAS PRIMAS, S.A. C.V.">
+     <dte:DireccionReceptor>
+      <dte:Direccion>COLONIA SAN MIGUEL CHAPULTEPEC, DISTRITO FEDERAL</dte:Direccion>
+      <dte:CodigoPostal>0000000000</dte:CodigoPostal>
+      <dte:Municipio>MEXICO</dte:Municipio>
+      <dte:Departamento>DF</dte:Departamento>
+      <dte:Pais>MX</dte:Pais>
+     </dte:DireccionReceptor>
+    </dte:Receptor>
+    <dte:Frases>
+     <dte:Frase TipoFrase="4" CodigoEscenario="1"/>
+    </dte:Frases>
+    <dte:Items>
+     <dte:Item BienOServicio="B" NumeroLinea="1">
+      <dte:Cantidad>1.0</dte:Cantidad>
+      <dte:UnidadMedida>KG</dte:UnidadMedida>
+      <dte:Descripcion>22092 ISOPROPANOL  TAMBOR</dte:Descripcion>
+      <dte:PrecioUnitario>100.0</dte:PrecioUnitario>
+      <dte:Precio>100.0</dte:Precio>
+      <dte:Descuento>0.0</dte:Descuento>
+      <dte:Impuestos>
+       <dte:Impuesto>
+        <dte:NombreCorto>IVA</dte:NombreCorto>
+        <dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+        <dte:MontoGravable>100.0</dte:MontoGravable>
+        <dte:MontoImpuesto>0.0</dte:MontoImpuesto>
+       </dte:Impuesto>
+      </dte:Impuestos>
+      <dte:Total>100.0</dte:Total>
+     </dte:Item>
+    </dte:Items>
+    <dte:Totales>
+     <dte:TotalImpuestos>
+      <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.0"/>
+     </dte:TotalImpuestos>
+     <dte:GranTotal>100.0</dte:GranTotal>
+    </dte:Totales>
+    <dte:Complementos>
+	     <dte:Complemento IDComplemento="1" NombreComplemento="NOTA CREDITO" URIComplemento="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0">
+      <cno:ReferenciasNota Version="1" FechaEmisionDocumentoOrigen="2020-12-10" MotivoAjuste="DESCUENTO" NumeroAutorizacionDocumentoOrigen="EFAB23AF-0A49-4632-BE97-E9B820606105" xmlns:cno="http://www.sat.gob.gt/face2/ComplementoReferenciaNota/0.1.0"/>
+     </dte:Complemento>
+     <dte:Complemento IDComplemento="1" NombreComplemento="EXPORTACION" URIComplemento="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0">
+      <cex:Exportacion Version="1" xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0">
+       <cex:NombreConsignatarioODestinatario>POCHTECA MATERIAS PRIMAS, S.A. C.V.</cex:NombreConsignatarioODestinatario>
+       <cex:DireccionConsignatarioODestinatario>COLONIA SAN MIGUEL CHAPULTEPEC, DISTRITO FEDERAL MEXICO</cex:DireccionConsignatarioODestinatario>
+       <cex:NombreComprador>POCHTECA MATERIAS PRIMAS, S.A. C.V.</cex:NombreComprador>
+       <cex:DireccionComprador>COLONIA SAN MIGUEL CHAPULTEPEC, DISTRITO FEDERAL MEXICO</cex:DireccionComprador>
+       <cex:INCOTERM>CIF</cex:INCOTERM>
+       <cex:CodigoExportador>0000107139</cex:CodigoExportador>
+      </cex:Exportacion>
+     </dte:Complemento>
+    </dte:Complementos>
+   </dte:DatosEmision>
+  </dte:DTE>
+ </dte:SAT>
+</dte:GTDocumento>

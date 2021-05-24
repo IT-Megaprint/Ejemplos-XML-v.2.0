@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+   <dte:SAT ClaseDocumento="dte">
+      <dte:DTE ID="DatosCertificados">
+         <dte:DatosEmision ID="DatosEmision">
+            <dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2019-10-28T13:10:29.000-06:00" Tipo="FESP" />
+            <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="11111111" NombreComercial="PRUEBAS" NombreEmisor="PRUEBAS">
+               <dte:DireccionEmisor>
+                  <dte:Direccion>12 CALLE A 2-*37 3 EL ROSARIO Mixco, GUATEMALA</dte:Direccion>
+                  <dte:CodigoPostal>0</dte:CodigoPostal>
+                  <dte:Municipio>Mixco</dte:Municipio>
+                  <dte:Departamento>GUATEMALA</dte:Departamento>
+                  <dte:Pais>GT</dte:Pais>
+               </dte:DireccionEmisor>
+            </dte:Emisor>
+            <dte:Receptor CorreoReceptor="" IDReceptor="2263175360101" NombreReceptor="LESVIA PATAL" TipoEspecial="CUI">
+               <dte:DireccionReceptor>
+                  <dte:Direccion>CIUDAD</dte:Direccion>
+                  <dte:CodigoPostal>0</dte:CodigoPostal>
+                  <dte:Municipio />
+                  <dte:Departamento />
+                  <dte:Pais>GT</dte:Pais>
+               </dte:DireccionReceptor>
+            </dte:Receptor>
+            <dte:Items>
+               <dte:Item BienOServicio="S" NumeroLinea="1">
+                  <dte:Cantidad>1.00</dte:Cantidad>
+                  <dte:UnidadMedida>UNI</dte:UnidadMedida>
+                  <dte:Descripcion>TEST</dte:Descripcion>
+                  <dte:PrecioUnitario>10.00</dte:PrecioUnitario>
+                  <dte:Precio>10.00</dte:Precio>
+                  <dte:Descuento>0.00</dte:Descuento>
+                  <dte:Impuestos>
+                     <dte:Impuesto>
+                        <dte:NombreCorto>IVA</dte:NombreCorto>
+                        <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                        <dte:MontoGravable>8.93</dte:MontoGravable>
+                        <dte:MontoImpuesto>1.07</dte:MontoImpuesto>
+                     </dte:Impuesto>
+                  </dte:Impuestos>
+                  <dte:Total>10.00</dte:Total>
+               </dte:Item>
+            </dte:Items>
+            <dte:Totales>
+               <dte:TotalImpuestos>
+                  <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="1.07" />
+               </dte:TotalImpuestos>
+               <dte:GranTotal>10.00</dte:GranTotal>
+            </dte:Totales>
+            <dte:Complementos>
+               <dte:Complemento IDComplemento="1" NombreComplemento="RETENCION" URIComplemento="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0">
+                  <cfe:RetencionesFacturaEspecial xmlns:ces="http://www.sat.gob.gt/face2/ComplementoFacturaEspecial/0.1.0" Version="1">
+                     <cfe:RetencionISR>0.45</cfe:RetencionISR>
+                     <cfe:RetencionIVA>1.07</cfe:RetencionIVA>
+                     <cfe:TotalMenosRetenciones>8.48</cfe:TotalMenosRetenciones>
+                  </cfe:RetencionesFacturaEspecial>
+               </dte:Complemento>
+            </dte:Complementos>
+         </dte:DatosEmision>
+      </dte:DTE>
+   </dte:SAT>
+</dte:GTDocumento>
+

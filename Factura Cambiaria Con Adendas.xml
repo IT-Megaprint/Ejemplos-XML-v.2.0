@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" xmlns:xd="http://www.w3.org/2000/09/xmldsig#" Version="0.1">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2020-03-04T16:19:33.000-06:00" Tipo="FCAM"/>
+				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="123456789" NombreComercial="prueba" NombreEmisor="prueba GUATEMALA SOCIEDAD ANONIMA">
+					<dte:DireccionEmisor>
+						<dte:Direccion>KM 31.5 CARRET AL PACIFICO PARQUE INDUSTRIAL Z BODEGA 1 0 Amatitlan, GUATEMALA</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio>Amatitlan</dte:Municipio>
+						<dte:Departamento>GUATEMALA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor CorreoReceptor="" IDReceptor="CF" NombreReceptor="Consumidor Final">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Ciudad</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio/>
+						<dte:Departamento/>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="1" TipoFrase="1"/>
+					<dte:Frase CodigoEscenario="1" TipoFrase="2"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="B" NumeroLinea="1">
+						<dte:Cantidad>1.00</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>PRUEBA</dte:Descripcion>
+						<dte:PrecioUnitario>100.00</dte:PrecioUnitario>
+						<dte:Precio>100.00</dte:Precio>
+						<dte:Descuento>0.00</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>89.29</dte:MontoGravable>
+								<dte:MontoImpuesto>10.71</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>100.00</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:TotalImpuestos>
+						<dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="10.71"/>
+					</dte:TotalImpuestos>
+					<dte:GranTotal>100.00</dte:GranTotal>
+				</dte:Totales>
+				<dte:Complementos>
+					<dte:Complemento IDComplemento="1" NombreComplemento="Abono" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+						<cfc:AbonosFacturaCambiaria xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" Version="1">
+							<cfc:Abono>
+								<cfc:NumeroAbono>1</cfc:NumeroAbono>
+								<cfc:FechaVencimiento>2020-03-04</cfc:FechaVencimiento>
+								<cfc:MontoAbono>100.00</cfc:MontoAbono>
+							</cfc:Abono>
+						</cfc:AbonosFacturaCambiaria>
+					</dte:Complemento>
+				</dte:Complementos>
+			</dte:DatosEmision>
+		</dte:DTE>
+		<dte:Adenda>
+			<AdendaDetail>
+				<AdendaSummary>
+					<Valor1></Valor1>
+					<Valor2></Valor2>
+				</AdendaSummary>
+			</AdendaDetail>
+		</dte:Adenda>
+	</dte:SAT>
+</dte:GTDocumento>

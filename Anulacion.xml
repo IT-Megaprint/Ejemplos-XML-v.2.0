@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:GTAnulacionDocumento xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+      xmlns:ns="http://www.sat.gob.gt/dte/fel/0.1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.1">
+      <ns:SAT>
+            <ns:AnulacionDTE ID="DatosCertificados">
+                  <ns:DatosGenerales ID="DatosAnulacion"
+                        NumeroDocumentoAAnular="24D95FCB-AE30-4735-8046-E6CF8FAB80B9"
+                        NITEmisor="29804981" IDReceptor="CF"
+                        FechaEmisionDocumentoAnular="2019-10-17T14:12:21.000-06:00"
+                        FechaHoraAnulacion="2019-10-31T09:34:59-06:00"
+                        MotivoAnulacion="Anulacion"/>
+            </ns:AnulacionDTE>
+      </ns:SAT>
+</ns:GTAnulacionDocumento>
+

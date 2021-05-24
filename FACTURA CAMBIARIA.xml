@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1" xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2020-04-23T13:36:12.000-06:00" Tipo="FCAM"/>
+				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="25594214" NombreComercial="prueba" NombreEmisor="prueba">
+					<dte:DireccionEmisor>
+						<dte:Direccion>DIAGONAL 29 00-22 17 CALZADA LA PAZ Guatemala, GUATEMALA</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio>Guatemala</dte:Municipio>
+						<dte:Departamento>GUATEMALA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor CorreoReceptor="" IDReceptor="50510231" NombreReceptor="MEGAPRINT, SOCIEDAD ANONIMA">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Ciudad</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio/>
+						<dte:Departamento/>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="1" TipoFrase="1"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="B" NumeroLinea="1">
+						<dte:Cantidad>1.00</dte:Cantidad>
+						<dte:UnidadMedida>uni</dte:UnidadMedida>
+						<dte:Descripcion>pruebas</dte:Descripcion>
+						<dte:PrecioUnitario>1.00</dte:PrecioUnitario>
+						<dte:Precio>1.00</dte:Precio>
+						<dte:Descuento>0.00</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>0.89</dte:MontoGravable>
+								<dte:MontoImpuesto>0.11</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>1.00</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:TotalImpuestos>
+						<dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.11"/>
+					</dte:TotalImpuestos>
+					<dte:GranTotal>1.00</dte:GranTotal>
+				</dte:Totales>
+				<dte:Complementos>
+					<dte:Complemento IDComplemento="1" NombreComplemento="Abono" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+						<cfc:AbonosFacturaCambiaria xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" Version="1">
+							<cfc:Abono>
+								<cfc:NumeroAbono>1</cfc:NumeroAbono>
+								<cfc:FechaVencimiento>2020-02-26</cfc:FechaVencimiento>
+								<cfc:MontoAbono>1.00</cfc:MontoAbono>
+							</cfc:Abono>
+						</cfc:AbonosFacturaCambiaria>
+					</dte:Complemento>
+				</dte:Complementos>
+			</dte:DatosEmision>
+		</dte:DTE>
+	</dte:SAT>
+</dte:GTDocumento>
